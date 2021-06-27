@@ -1,0 +1,90 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*background: linear-gradient( to left, black , rgb(119, 116, 116) )*/
+    background: linear-gradient(to left, #4f3f66 0, #3b2e5f 25%, #1f1f59 50%, #001253 75%, #00004e 100%);
+    
+}
+.container{
+    min-width: 750px;
+    width: 100%;
+    text-align: center; 
+      
+}
+h1{
+    background-color: #ff8c00;
+    box-shadow: 2px 2px rgba(248, 243, 243, 0.856);
+    font-size: 5em;
+    font-weight: 150;
+    font-family: 'Kirang Haerang', cursive;
+    color: black;
+    margin: 150px;
+    text-shadow: 2px 2px rgba(240, 234, 234, 0.918);
+    border-radius: 15px;
+}
+.letrah1{
+    font-size: 2.4em;
+}
+.botao{
+    min-width: 750px;
+    width: 100%;
+    text-align: center; 
+}
+button{
+    text-shadow: 2px 2px rgba(240, 234, 234, 0.918);
+    background-color: #ff8c00;
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 3em;
+    border-radius: 15px;
+    box-shadow: 2px 2px rgba(245, 236, 236, 0.911);
+}
+button:hover{
+    background: rgba(85, 230, 66, 0.822);
+    
+}
+.btn-voltar{
+    margin-top: 10px;
+    font-size: 0.7em;
+}
+footer{
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 1.2em;
+    min-width: 750px;
+    color: white;
+    background: black;
+    text-align: center;
+    padding: 15px;
+    margin-top: 200px;
+}
+span:hover{
+    font-family: 'Kirang Haerang', cursive;
+    margin-left: 2px;
+    padding: 2px;
+    color: black;
+    background: white;
+    border-radius: 2px;
+}
+a:link, a:visited, a:active{
+    color: black;
+}
+a{
+ text-decoration: none;
+}
+/*
+***********************************/
+canvas{
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+}
+.margin{
+    margin-top: 50px;
+}
